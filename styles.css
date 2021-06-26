@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+}
+.headerSlider {
+    background: url(img/home.jpg);
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+	position:relative;
+}
+.sliderContent {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -webkit-transform: translate(-50% , -50%);
+        -ms-transform: translate(-50% , -50%);
+            transform: translate(-50% , -50%);
+    text-align: center;
+    line-height: 10px;
+}
+.sliderContent h1 {
+	 color: #565458;
+    font-size: 60px;
+    margin-bottom: 37px;
+}.sliderContent p {
+    font-size: 21px;
+    font-weight: 500;
+    color: #565458;
+}
+.tab-menu ul li {
+    padding: 5px 14px;
+    margin: 10px 5px;
+	 color: #565458;
+	 cursor:pointer;
+}
+.tab-menu ul li.active {
+    border-bottom: 3px solid #585858;
+	
+}.tab-menu ul li:hover {
+    border-bottom: 3px solid #909090;
+}
+
+.container.footsection1 h1 {
+		 color: #565458;
+    border-bottom: 1px solid #4c4b4b;
+    display: table;
+    width: 126px;
+    text-align: center;
+    margin: 8px auto;
+}
+
+.container.footsection1 {
+    text-align: center;
+}
+
+.container.footsection1 p {
+		 color: #565458;
+    font-size: 21px;
+}
+.container.footsection2 {
+    text-align: center;
+    line-height: 12px;
+    margin-top: 59px;
+    margin-bottom: 24px;
+}
+.container.footsection2 p, .container.footsection2 p a {
+    font-size: 11px;
+    color: #565458 !important;
+    margin-top: -8px;
+}
+
+.hometapcontent {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.hometapcontent h1 {
+    font-size: 32px;
+    color: #565458;
+}
+
+.hometapcontent p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #565458;
+}
+.flex-item {
+    width: 30%;
+    margin: 1%;
+}
+.container.owncontainer {
+    width: 39%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container.owncontainer p {
+    color: #565458;
+}
+.tab-menu ul {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:768px) {
+	
+.mobile{
+	display:block !important;
+}
+.tab-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tab-menu {
+    position: fixed;
+    top: 28px;
+    width: 100%;
+    background: white;
+    height: 100vh;
+}
+header#mobile {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    background: white;
+}
+.tab-menu {
+    display: none !important;
+}
+.tab-menu.show{
+	display:block !important;
+}
+.container.text-center img {
+    width: 100% !important;
+}
+.flex-item {
+    width: 47% !important;
+    margin: 1%;
+}
+.container.owncontainer {
+    width: 100% !important;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+}
+
+.mobile{
+	display:none;
+}
+header#mobile nav span i {
+    padding: 10px 25px;
+    font-size: 28px !important;
+    color: #565458;
+}
